@@ -1,0 +1,30 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #272922;
+  background: #e7e4db;
+  font-synthesis: none;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  padding: 2rem;
+  max-width: 48rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+h1 {
+  font-size: clamp(2rem, 8vw, 5rem);
+  line-height: 1;
+  border-block: 0.4rem solid #9a2924;
+  padding-block: 1.5rem;
+}
